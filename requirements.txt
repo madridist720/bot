@@ -1,0 +1,9 @@
+pyTelegramBotAPI
+requests
+telegraphapi
+openpyxl
+psycopg2
+imaplib
+email
+pydub
+bs4

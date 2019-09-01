@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[packages]
+pyTelegramBotAPI="*"
+requests="*"
+telegraphapi="*"
+openpyxl="*"
+psycopg2="*"
+SpeechRecognition="*"
+pydub="*"
+bs4="*"
+
+[requires]
+python_version = "3.6"
