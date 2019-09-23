@@ -107,4 +107,9 @@ def users_count():
 def send_to_all(text):
     cur.execute('select * from users')
     for row in cur:
-        bot.send_message(row[0], text, parse_mode='markdown')
+        bot.send_message(row[0], text, parse_mode='markdown') 
+        try:
+            bot.send_message(row[0], text, parse_mode='markdown')
+        except:
+            pass
+    bot.send_message(120929625, 'всё')
