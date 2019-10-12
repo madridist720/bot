@@ -12,10 +12,16 @@ def get_email():
     today = datetime.datetime.now()
     dn = datetime.date.today().isoweekday()
     if dn > 5 and check_count() > 1:
-        get_email1(1)
-        get_email1(0)
+        try:
+            get_email1(1)
+            get_email1(0)
+        except:
+            pass
     else:
-        get_email1(0)
+        try:
+            get_email1(0)
+        except:
+            pass
 def check_count():
 
 
